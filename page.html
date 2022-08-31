@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seçil Kuruoğlu | Programlama Eğitimleri</title>
+<link rel="stylesheet" href="page.css">
+<link rel="stylesheet" href="global.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+            <h1 class="heading-small">Seçil Kuruoğlu</h1>
+
+            <ul>
+                <li><a href="#Home">Anasayfa</a></li>
+                <li><a href="#Training">Eğitimler</a></li>
+                <li><a href="#Courses">Kurslar</a></li>
+                <li><a href="#Contact">İletişim</a></li>
+            </ul>
+        </nav>
+        </div>
+</header>
+<section id="home">
+    <img src="resim.jpg">
+    <div class="name">
+        <h2 class="heading-big">Seçil Kuruoğlu</h2>
+        <p>Web Developer</p>
+    </div>
+    <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+
+</section>
+<section id="training" class="bg-dark-blue">
+    <h3 class="text-center heading-small">Eğitimler</h3>
+    <div class="items">
+    <article class="item">
+        <i class="fa fa-pencil"></i>
+        <h3>Sınıf İçi Eğitimler</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus aperiam dolores optio velit! Ducimus dolore possimus quam temporibus, minima autem perferendis, ullam similique, illo harum sint voluptatum assumenda animi?
+        </p>
+    </article>
+
+    <article class="item">
+        <i class="fa fa-pencil"></i>
+        <h3>Online İçerikler</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus aperiam dolores optio velit! Ducimus dolore possimus quam temporibus, minima autem perferendis, ullam similique, illo harum sint voluptatum assumenda animi?
+        </p>
+    </article>
+
+    <article class="item">
+        <i class="fa fa-pencil"></i>
+        <h3>Konferanslar</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus aperiam dolores optio velit! Ducimus dolore possimus quam temporibus, minima autem perferendis, ullam similique, illo harum sint voluptatum assumenda animi?
+        </p>
+      </article>
+    </div>
+</section>
+<section id="courses">
+    <h3 class="text-center heading-medium">Kurslar</h3>
+
+    <div class="container">
+        <div class="courses">
+            <div class="course">
+                <div class="course-image">
+                    <img src="pyton.jpg" >
+                    <span>%50 İndirim</span>
+                </div>
+
+                <div class="course-info">
+                    <div class="title">
+                    (40 + Saat)Python|Sıfırdan İleri Seviye Programlama(2020)
+                    </div>
+
+                    <div class="description"> 
+                        Komple Python Geliştirici Kursu | Sıfırdan Python Öğrenin
+                        <div class="instructor"> Seçil Kuruoğlu, Yazılım Bilimi
+                            <div class="raiting"> 4.6 | (19990 Oylama)</div>
+                        </div>
+                    </div>
+
+                    <!-- Course 2-->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="java1.png">
+                            <span>%90 İndirim</span>
+                        </div>
+        
+                        <div class="course-info">
+                            <div class="title">
+                                Komple Modern Java Kursu
+                            </div>
+        
+                            <div class="description"> 
+                                Komple Java Geliştirici Kursu | Sıfırdan Python Öğrenin
+                                <div class="instructor"> Seçil Kuruoğlu, Yazılım Bilimi
+                                    <div class="raiting"> 4.6 | (7000 Oylama)</div>
+                                </div>
+                            </div>
+
+                    <!--Course 3 -->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="jscrprit.jpg">
+                            <span>%90 İndirim</span>
+                        </div>
+        
+                        <div class="course-info">
+                            <div class="title">
+                                Komple Modern Javascript Kursu - ES6+
+                            </div>
+        
+                            <div class="description"> 
+                                Komple modern Javascript Geliştirici Kursu | Sıfırdan Python Öğrenin
+                                <div class="instructor"> Seçil Kuruoğlu, Yazılım Bilimi
+                                    <div class="raiting"> 4.6 | (2000 Oylama)</div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="contact" class="bg-dark-blue">
+    <div class="contact-form">
+        <form>
+            <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+       
+    
+        <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+             type="text" 
+             class="form-control" 
+             name="name" id="name"
+             placeholder="İsim"
+             >
+
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input 
+            type="text" 
+             class="form-control" 
+             name="email"
+              id="email"
+             placeholder="E-mail"
+             >
+
+        </div>
+
+        <div class="form-group">
+            <label for="MESSAGE">Mesaj</label>
+            <textarea 
+            name="message" 
+            id="message" 
+            class="form-control"
+            rows="5"
+            placeholder="Mesajınız..."
+            ></textarea>
+        </div>
+        <button type="submit" class="btn btn-block">Gönder</button>
+
+     </form>
+     <ul>
+         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+     </ul>
+    </div>
+   
+</footer>
+</body>
+</html>
